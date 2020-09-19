@@ -59,16 +59,16 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name:   # your blog must have a name for it to show up in the nav bar
-blog_description: here I write about random stuff
-permalink: /blog/:year/:title/
+#blog_name:   # your blog must have a name for it to show up in the nav bar
+#blog_description: here I write about random stuff
+#permalink: /blog/:year/:title/
 
 # Pagination
-pagination:
-  enabled: true
+#pagination:
+#  enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+#disqus_shortname: al-folio # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -77,7 +77,7 @@ disqus_shortname: al-folio # put your disqus shortname
 collections:
   news:
     defaults:
-      layout: post
+     layout: post
     output: true
     permalink: /news/:path/
   projects:
