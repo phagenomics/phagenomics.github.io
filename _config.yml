@@ -2,11 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: (Long Last) Name
-email: you@example.com
+title: JCesarIgnacioEspinoza # the website title (if blank, full name will be used instead)
+first_name: J. Cesar Ignacio Espinoza, Ph.D.
+middle_name: #
+last_name: #Ignacio Espinoza, Ph.D.
+email: j.cesar.ignacio@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -15,7 +15,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
+baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 
 # -----------------------------------------------------------------------------
@@ -39,19 +39,19 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+github_username: phagenomics
+twitter_username: phagenomics
+linkedin_username: j-cesar-ignacio-espinoza-a6140b95
+scholar_userid: ##Julio_Cesar_Ignacio_Espinoza
+orcid_id: 0000-0001-9303-7504
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: J_Cesar_Ignacio_Espinoza
 blogger_url: # your blogger URL
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Emails are the best way to reach me.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
@@ -59,8 +59,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name:   # your blog must have a name for it to show up in the nav bar
+blog_description: here I write about random stuff
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -123,7 +123,7 @@ plugins:
 
 scholar:
 
-  last_name: Einstein
+  last_name: Ignacio-Espinoza
 
   style: apa
   locale: en
